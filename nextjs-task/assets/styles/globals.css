@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.cdnfonts.com/css/satoshi");
+
+body {
+  /* @apply font satoshi; */
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  /* font-family: ; */
+}
+
+.sidebar {
+  height: 730px;
+}
+
+/* .header{
+    width: 100%;
+}
+
+.main{
+    width: 100%;
+} */
+
+.btn {
+  width: 720px;
+}
+
+.comment-section {
+  width: 720px;
+}
+
+.divider {
+  border-top: 1px solid #474747;
+  opacity: 20%;
+}
+
+.flame-bg {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 227, 154, 0.64) 0%,
+    rgba(255, 242, 210, 0.5248) 100%
+  );
+}
